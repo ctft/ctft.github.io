@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leotubarao/ctft.git"
+    "url": "git+https://github.com/ctft/ctft.github.io.git"
   },
   "keywords": [],
   "author": "Leônidas Santos <oi@ltco.com.br>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leotubarao/ctft/issues"
+    "url": "https://github.com/ctft/ctft.github.io/issues"
   },
-  "homepage": "https://leotubarao.github.io/ctft/",
+  "homepage": "https://ctft.github.io/",
   "dependencies": {
     "feather-icons": "^4.28.0",
     "html2canvas": "^1.0.0"
