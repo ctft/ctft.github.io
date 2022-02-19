@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const del = require('del');
 const sass = require('gulp-sass')(require('sass'));
 const autoprefixer = require('gulp-autoprefixer');
+const concat = require('gulp-concat');
 const terser = require('gulp-terser');
 const svgmin = require('gulp-svgmin');
 const browserSync = require('browser-sync').create();
@@ -64,6 +65,7 @@ function ltco_plugins_scripts() {
 
   return gulp
     .src(srcPath)
+    .pipe(concat('plugins.min.js'))
     .pipe(gulp.dest(destPath))
     .pipe(browserSync.stream())
 }
