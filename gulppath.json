@@ -10,7 +10,7 @@
       ],
       "destPath": "public/scripts"
     },
-    "ltco_scripts_plugins": {
+    "ltco_plugins_scripts": {
       "srcPath": [
         "node_modules/feather-icons/dist/feather.min.js",
         "node_modules/html2canvas/dist/html2canvas.min.js"
